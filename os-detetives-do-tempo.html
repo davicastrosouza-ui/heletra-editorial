@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102c25">
+<meta name="description" content="Os Detetives do Tempo: O Enigma das Duas Guerras. Quatro jovens e uma calopsita investigam pistas de duas guerras mundiais. 20 capítulos e 40 mistérios.">
+<meta property="og:type" content="book"><meta property="og:title" content="Os Detetives do Tempo | HELETRA Editorial">
+<meta property="og:description" content="Uma aventura infantojuvenil sobre história, investigação e o valor das evidências. Em preparação editorial.">
+<title>Os Detetives do Tempo | HELETRA Editorial</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+:root{--book-green:#102c25;--book-gold:#c7a16a;--book-cream:#f7f1e5}
+.book-page{background:var(--book-cream);color:var(--book-green)}
+.book-page h1,.book-page h2,.book-page h3{font-family:'Cormorant Garamond',serif;font-weight:500}
+.book-navigation{display:flex;align-items:center;gap:24px}.book-navigation a{font-size:12px;font-weight:700}
+.book-hero{background:radial-gradient(circle at 78% 55%,#2c4a39 0,transparent 42%),var(--book-green);color:#fff9eb;overflow:hidden;position:relative}
+.book-hero:after{content:'✧';position:absolute;right:-30px;top:-115px;font:400 540px Georgia,serif;color:rgba(204,172,110,.06);pointer-events:none}
+.book-hero-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:45px;align-items:center;min-height:630px;padding:82px 0}
+.book-kicker{color:var(--book-gold);font-size:10px;font-weight:700;letter-spacing:.19em}
+.book-hero h1{font-size:clamp(61px,6.2vw,100px);line-height:.91;letter-spacing:-.025em;margin:28px 0 24px}
+.book-hero h1 em{display:block;color:#e1b980;font-weight:400;font-size:.62em;line-height:1.03;margin-top:17px}
+.book-hero p{font:400 18px/1.55 'Cormorant Garamond',serif;max-width:570px;color:#efe8db}
+.book-actions{display:flex;gap:17px;flex-wrap:wrap;margin:30px 0}
+.book-cta{display:inline-flex;align-items:center;justify-content:center;min-height:49px;padding:12px 23px;background:#ead0a0;color:#142c27;font-size:12px;font-weight:700;border:1px solid #ead0a0}
+.book-cta.secondary{background:transparent;color:#ead0a0}
+.book-cta:hover{filter:brightness(1.1)}
+.book-hero-features{display:flex;gap:26px;flex-wrap:wrap;color:#cdbd9e;font-size:11px;letter-spacing:.04em;margin-top:38px}
+.book-hero-features span{border-left:1px solid var(--book-gold);padding-left:12px}
+.book-art{position:relative;display:flex;justify-content:center;align-items:center;min-height:440px}
+.book-art:before{content:'';width:390px;height:390px;position:absolute;max-width:100%;border:1px solid rgba(212,183,128,.33);border-radius:50%;box-shadow:0 0 0 28px rgba(212,183,128,.035),0 0 0 65px rgba(212,183,128,.025)}
+.book-cover{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:space-between;width:min(315px,82%);aspect-ratio:3/4;background:linear-gradient(150deg,#fff8e8,#dfcfb4);padding:30px 21px;border:8px double #ab8d61;color:#19372b;text-align:center;transform:rotate(-4deg);box-shadow:20px 26px 30px #03181092}
+.book-cover small{letter-spacing:.18em;font-size:10px;font-weight:700}
+.book-cover strong{font:600 40px/.9 'Cormorant Garamond',serif}
+.book-cover em{font:400 22px/1 'Cormorant Garamond',serif}
+.book-clock{font-size:94px;line-height:1;color:#9a7c4e}
+.book-cover .book-art-note{font-size:9px;letter-spacing:.1em}
+.book-section{padding:82px 0}.book-section h2{font-size:clamp(43px,4.8vw,64px);line-height:.99;margin:22px 0}.book-section h2 em{color:#ae8350;font-weight:400}
+.book-section p{line-height:1.85;font-size:15px;max-width:840px;color:#536057}
+.book-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:24px 0;margin-top:28px;border-block:1px solid #cbbda5}
+.book-facts strong{display:block;font:600 33px 'Cormorant Garamond',serif}.book-facts span{font-size:11px;color:#647166}
+.book-play{background:#e9dfce}.book-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0}.book-steps article{background:#faf6ed;border:1px solid #d6c6a9;padding:24px}.book-steps b{color:#aa844d;font:600 30px 'Cormorant Garamond',serif}.book-steps h3{font-size:29px;margin:9px 0}.book-steps p{font-size:13px;margin:0}
+.book-people{background:#f6f0e5}.book-person-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:30px 0}.book-person-grid article{min-width:0;border:1px solid #d5c5a7;background:#fffaf0;overflow:hidden}.book-person-grid .person-art{height:152px;display:flex;align-items:center;justify-content:center;font:600 76px 'Cormorant Garamond',serif;background:#dbccb2;color:#4c5a4e;position:relative}.book-person-grid .person-art:after{content:'✦';font:19px Georgia,serif;color:#a58a57;position:absolute;bottom:8px;right:11px}.book-person-grid h3{font-size:27px;margin:14px 13px 5px}.book-person-grid p{font-size:12px;line-height:1.5;margin:0 13px 18px}
+.book-history{background:#e8dfd0}.book-notice{border-left:3px solid #b38e56;padding-left:15px}
+.book-footer-cta{padding:65px 0;background:var(--book-green);color:#fff7ea}.book-footer-cta h2{font:500 60px/1 'Cormorant Garamond',serif;margin:0 0 20px}.book-footer-cta p{max-width:660px;color:#d5d9ce;line-height:1.7}
+@media(max-width:850px){.book-hero-grid{grid-template-columns:1fr;gap:16px;padding:65px 0 55px}.book-art{min-height:370px}.book-cover{max-width:280px}.book-person-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:580px){.book-hero h1{font-size:clamp(57px,13vw,77px)}.book-hero p{font-size:17px}.book-navigation{gap:8px}.book-navigation a{font-size:11px}.book-hero-features{gap:11px}.book-steps,.book-facts{grid-template-columns:1fr}.book-person-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.book-person-grid .person-art{height:125px}.book-section{padding:60px 0}.book-footer-cta h2{font-size:44px}.book-hero-grid{padding-top:53px}.book-art{min-height:360px}.book-cover strong{font-size:37px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head><body class="book-page">
+<a href="#conteudo" class="skip-link">Ir para o conteúdo</a>
+<header class="site-header"><div class="container header-content"><a href="index.html" class="brand" aria-label="HELETRA Editorial: voltar à página inicial"><span class="brand-mark" aria-hidden="true">H</span><span class="brand-type"><strong>HELETRA</strong><small>EDITORIAL</small></span></a><nav class="book-navigation" aria-label="Navegação da página"><a href="#historia">A história</a><a href="#personagens">Personagens</a><a href="index.html#livros">Catálogo</a></nav></div></header>
+<main id="conteudo">
+<section class="book-hero"><div class="container book-hero-grid"><div><span class="book-kicker">PRIMEIRO PROJETO EDITORIAL · EM PREPARAÇÃO</span><h1>Os Detetives<br>do Tempo <em>O Enigma das Duas Guerras</em></h1><p>Quatro jovens investigadores, uma calopsita curiosa, documentos misteriosos e uma caixa-relógio que atravessa o tempo. Entre pistas e testemunhos, uma pergunta acompanha a investigação: o que é fato, o que é hipótese e o que ainda precisa ser provado?</p><div class="book-actions"><a href="#historia" class="book-cta">Conheça a história ↗</a><a href="#participar" class="book-cta secondary">Como participar ↗</a></div><div class="book-hero-features"><span>Mistério histórico</span><span>Leitura participativa</span><span>Investigações e enigmas</span></div></div>
+<div class="book-art"><div class="book-cover" role="img" aria-label="Composição tipográfica provisória para o livro, sem substituir a capa oficial"><small>HELETRA EDITORIAL</small><span class="book-clock" aria-hidden="true">✧</span><strong>OS DETETIVES<br>DO TEMPO</strong><em>O Enigma das Duas Guerras</em><small class="book-art-note">VISUAL PROVISÓRIO · CAPA EM DESENVOLVIMENTO</small></div></div></div></section>
+<section class="book-section" id="historia"><div class="container"><span class="section-number">01 · A AVENTURA</span><h2>Um mistério que <em>atravessa o tempo.</em></h2><p>Em um museu de Brasília, Henrique, Clara, Theo e Letícia encontram duas fichas de mortes ocorridas em épocas diferentes: Lucien Moreau, em 1916, e Anna Weiss, em 1942. Por que esses registros foram guardados juntos? A busca por respostas os leva a arquivos, testemunhos e pistas relacionadas às duas guerras mundiais.</p><p>Cada documento pode ajudar a esclarecer uma questão, mas semelhanças e suspeitas não bastam para apontar responsáveis.</p><div class="book-facts"><div><strong>20 capítulos</strong><span>Uma aventura contínua</span></div><div><strong>40 mistérios</strong><span>Dois desafios por capítulo</span></div><div><strong>A partir de 12 anos</strong><span>Leitura infantojuvenil</span></div></div></div></section>
+<section class="book-section book-play" id="participar"><div class="container"><span class="section-number">02 · LEITURA PARTICIPATIVA</span><h2>Você também faz parte <em>dessa investigação.</em></h2><p>Depois de cada capítulo, o leitor encontra dois mistérios. A proposta é observar as pistas, registrar a própria hipótese e justificar a resposta antes de consultar o gabarito comentado.</p><div class="book-steps"><article><b>01</b><h3>Observe</h3><p>Leia as pistas e examine os registros.</p></article><article><b>02</b><h3>Investigue</h3><p>Distinga o que se sabe daquilo que ainda precisa ser confirmado.</p></article><article><b>03</b><h3>Conclua</h3><p>Explique o raciocínio e confira o gabarito no momento certo.</p></article></div></div></section>
+<section class="book-section book-people" id="personagens"><div class="container"><span class="section-number">03 · O ELENCO</span><h2>Quatro jovens. Um grande mistério. <em>E um parceiro especial.</em></h2><p>Os retratos a seguir são espaços de composição aguardando a inclusão das ilustrações oficiais da Bíblia Visual V3, sem criar versões alternativas dos personagens.</p><div class="book-person-grid">
+<article><div class="person-art" aria-hidden="true">H</div><h3>Henrique</h3><p>13 anos. Cabelos escuros volumosos e óculos grandes e redondos.</p></article>
+<article><div class="person-art" aria-hidden="true">C</div><h3>Clara</h3><p>13 anos. Cabelos longos e escuros, observadora e investigativa.</p></article>
+<article><div class="person-art" aria-hidden="true">T</div><h3>Theo</h3><p>12 anos. Loiro, cabelos volumosos, inventor e curioso.</p></article>
+<article><div class="person-art" aria-hidden="true">L</div><h3>Letícia</h3><p>12 anos. Cachos castanhos e implante coclear, com bobina lateral e cabo curto.</p></article>
+<article><div class="person-art" aria-hidden="true">B</div><h3>Biscoito</h3><p>Calopsita de crista erguida, com colar e medalhão.</p></article>
+</div></div></section>
+<section class="book-section book-history"><div class="container"><span class="section-number">04 · HISTÓRIA E FICÇÃO</span><h2>Uma aventura inspirada em <em>contextos históricos reais.</em></h2><p>A Primeira e a Segunda Guerra Mundial fazem parte do cenário histórico. Os jovens, a caixa-relógio, as mortes investigadas e os arquivos da ampulheta são ficcionais. As viagens no tempo também pertencem à invenção literária.</p><p class="book-notice">A narrativa menciona guerras e mortes investigadas e enfatiza o cuidado na interpretação de provas e testemunhos.</p></div></section>
+<section class="book-footer-cta"><div class="container"><span class="book-kicker">EDIÇÃO EM PREPARAÇÃO</span><h2>Cada pista tem seu tempo.</h2><p>O livro ainda está em preparação editorial e as ilustrações passam por revisão. Não há data de lançamento, preço ou pré-venda anunciados.</p><a href="index.html" class="book-cta">Voltar à HELETRA ↗</a></div></section>
+</main><footer class="site-footer"><div class="container footer-bottom"><span>© 2026 HELETRA Editorial</span><a href="index.html">Página inicial</a></div></footer>
+</body></html>
