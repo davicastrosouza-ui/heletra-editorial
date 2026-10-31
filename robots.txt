@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heletra.com.br/sitemap.xml
