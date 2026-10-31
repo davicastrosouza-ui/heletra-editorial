@@ -104,3 +104,15 @@
 @media(max-width:1050px){.home-hero-grid{gap:34px}.home-hero h1{font-size:72px}.home-featured-content{padding:32px 28px}.home-reading-grid{grid-template-columns:1fr}.home-story-feature{grid-template-columns:minmax(180px,.62fr) 1fr}.home-reading-aside{padding:30px}.home-news-grid{gap:30px}.home-contact-grid{gap:30px}}
 @media(max-width:760px){.home-hero-grid{grid-template-columns:1fr;padding:65px 0 38px;gap:47px;min-height:0}.home-hero h1{font-size:clamp(65px,11.3vw,92px)}.home-hero .hero-description{max-width:550px}.home-hero-details{margin-top:38px}.home-hero-visual{max-width:620px;margin:0 auto}.home-hero-visual:before{inset:-12px 12px 12px -12px}.home-hero-bottom{font-size:9px}.home-featured-book{grid-template-columns:1fr}.home-featured-art img{max-height:410px}.home-featured-content{padding:32px 26px}.home-reading-grid{grid-template-columns:1fr}.home-news-grid,.home-contact-grid{grid-template-columns:1fr;gap:24px}.home-news-aside{border-left:0;border-top:1px solid #667164;padding:24px 0 0}.home-contact-panel{padding:28px}.nav{max-height:calc(100dvh - 77px);overflow:auto}.home-section-heading h2,.home-contact h2{font-size:clamp(46px,10vw,65px)}}
 @media(max-width:520px){.home-hero h1{font-size:clamp(57px,12vw,74px)}.home-hero .hero-actions{gap:15px}.home-hero .button{padding:15px 17px}.home-hero-details{gap:11px 15px;font-size:10px}.home-hero-bottom{gap:8px;letter-spacing:.1em}.home-story-feature{grid-template-columns:1fr}.home-story-image img{height:auto;max-height:440px;object-fit:contain}.home-story-content{padding:28px 23px}.home-featured-art img{max-height:none}.home-featured-content{padding:28px 22px}.home-featured-content h3{font-size:clamp(36px,10vw,53px)}.home-contact-panel h3{font-size:34px}.home-news{padding:78px 0}.home-reading-aside{padding:28px 23px}}
+
+/* Home institucional: um único destaque compacto para o primeiro livro */
+.home-book-teaser{max-width:1080px;grid-template-columns:minmax(270px,.78fr) minmax(0,1fr);align-items:center}
+.home-book-teaser .home-featured-art{align-self:stretch;min-height:275px}
+.home-book-teaser .home-featured-content{padding:30px 38px}
+.home-book-teaser .home-featured-content h3{font-size:clamp(31px,3.2vw,47px)}
+.home-book-teaser .home-featured-content > p{max-width:570px}
+@media(max-width:760px){
+  .home-book-teaser{grid-template-columns:1fr}
+  .home-book-teaser .home-featured-art{min-height:0}
+  .home-book-teaser .home-featured-content{padding:30px 24px}
+}
