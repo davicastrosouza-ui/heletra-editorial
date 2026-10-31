@@ -1,30 +1,39 @@
-# HELETRA Editorial — site de apresentação
+# HELETRA Editorial
 
-Primeira versão do site estático da HELETRA Editorial, com identidade clássica e sofisticada.
+Site institucional da **HELETRA Editorial**, disponível em [heletra.com.br](https://heletra.com.br), hospedado pelo GitHub Pages.
 
-## Conteúdo
-- `index.html`: página inicial com apresentação, livros, contos e novidades.
-- `styles.css`: layout responsivo para celulares e computadores.
-- `script.js`: menu responsivo no celular.
-- `assets/favicon.svg`: monograma simples da marca.
+## Estrutura
 
-## Visualizar
-Abra `index.html` em um navegador. Todos os recursos principais funcionam sem servidor, embora as fontes especiais dependam de conexão à internet (existem fontes de reserva).
+- `index.html`: página inicial, apresentação da editora, destaque do livro, contos, novidades e contato;
+- `os-detetives-do-tempo.html`: página exclusiva de *Os Detetives do Tempo: O Enigma das Duas Guerras*;
+- `styles.css`: estilos, identidade visual e layouts responsivos;
+- `script.js`: menu de navegação em telas menores;
+- `assets/livro/`: ilustrações editoriais e artes de *Casos de Bolso*;
+- `robots.txt` e `sitemap.xml`: arquivos de descoberta para buscadores;
+- `CNAME`: domínio personalizado `heletra.com.br`.
 
-## Publicar gratuitamente no GitHub Pages (depois da sua aprovação)
-1. Crie um repositório **separado** do TZP Tracker para a HELETRA.
-2. Envie os arquivos desta pasta à raiz do repositório.
-3. Ative GitHub Pages em Settings > Pages > Deploy from a branch (main / root).
-4. Teste primeiro o endereço `usuario.github.io/nome-do-repositorio/`.
-5. Somente após o site funcionar, configure em Pages o domínio personalizado `heletra.com.br` e ajuste os registros DNS no Registro.br seguindo a documentação atual do GitHub Pages. Ative HTTPS após a verificação.
+## Processo editorial
 
-Não é necessário mudar agora os servidores DNS do Registro.br. Não compre hospedagem paga.
+O livro **Os Detetives do Tempo** está em preparação editorial. O site não deve anunciar data de lançamento, preço, formato comercial ou pré-venda sem aprovação específica.
 
-## Para atualizar antes do lançamento
-- Substituir seção de livro em preparação pelos dados reais (capa, sinopse, formatos e links).
-- Adicionar o endereço real do Substack e os contos quando publicados.
-- Incluir contato oficial quando houver um canal editorial criado.
-- Acrescentar uma política de privacidade antes de integrar formulários, analytics ou serviços que coletem dados.
-- Verificar/licenciar imagens utilizadas, especialmente se geradas no OpenArt Starter.
+As ilustrações da Bíblia Visual V3 são as referências do universo do livro. Biscoito é uma **calopsita**, não um cão. A caixa-relógio é o artefato astronômico retangular previsto no projeto.
 
-**Importante:** a capa na abertura é uma composição conceitual feita em HTML/CSS, não uma capa definitiva. O site não está publicado.
+O Substack vinculado ao projeto é [davidornellas.substack.com](https://davidornellas.substack.com/), com o conto [O Bilhete que Não Deveria Existir](https://davidornellas.substack.com/p/o-bilhete-que-nao-deveria-existir).
+
+O Substack é apresentado como **canal de publicações**, não como e-mail de atendimento institucional. A HELETRA ainda não informou contato por e-mail oficial.
+
+## Desenvolvimento e publicação
+
+O site é estático e pode ser aberto localmente por `index.html`; as fontes externas dependem de conexão. Para testes fiéis ao GitHub Pages, execute um servidor HTTP local na raiz do projeto ou utilize uma implantação de prévia.
+
+O GitHub Pages publica o conteúdo da branch `main`. Alterações devem ser desenvolvidas em branch própria e discutidas em pull request antes da publicação. O domínio e o HTTPS já estão configurados na plataforma.
+
+## Próximos passos
+
+- Validar periodicamente links, responsividade e acessibilidade;
+- Definir e divulgar um endereço institucional de contato;
+- Atualizar catálogo e meios de aquisição apenas depois de aprovação editorial;
+- Considerar política de privacidade antes de adicionar formulário, ferramenta de métricas ou qualquer serviço que colete dados;
+- Cadastrar o sitemap no Google Search Console, quando houver acesso à conta administradora.
+
+© 2026 HELETRA Editorial.
