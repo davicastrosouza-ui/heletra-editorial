@@ -78,7 +78,7 @@
     wrapper.hidden = true;
     wrapper.setAttribute('role', 'region');
     wrapper.setAttribute('aria-label', 'Preferencias de cookies');
-    wrapper.innerHTML = '<div><h2>Seu espaço, sua escolha.</h2><p>Usamos recursos essenciais para apresentar o site. Com sua autorizacao, ativamos o Google Analytics para compreender as visitas. Voce pode recusar sem perder acesso ao conteudo. <a href="privacidade.html">Leia a Politica de Privacidade</a>.</p></div>' +
+    wrapper.innerHTML = '<div><h2>Seu espaço, sua escolha.</h2><p>Usamos recursos essenciais para apresentar o site. Com sua autorização, ativamos o Google Analytics para compreender as visitas. Você pode recusar sem perder acesso ao conteúdo. <a href="privacidade.html">Leia a Política de Privacidade</a>.</p></div>' +
       '<div class="he-cookie-actions"><button type="button" class="he-cookie-action secondary" data-he-cookie="reject">Recusar</button><button type="button" class="he-cookie-action" data-he-cookie="accept">Aceitar</button></div>';
     wrapper.querySelector('[data-he-cookie="reject"]').addEventListener('click', function () { selectConsent('rejected'); });
     wrapper.querySelector('[data-he-cookie="accept"]').addEventListener('click', function () { selectConsent('accepted'); });
