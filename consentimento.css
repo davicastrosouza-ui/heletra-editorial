@@ -1,0 +1,16 @@
+/* HELETRA Editorial - preferências de privacidade | V1.0 */
+.he-privacy-button{border:1px solid currentColor;background:transparent;color:inherit;border-radius:3px;padding:9px 12px;cursor:pointer;font:600 13px/1.4 'DM Sans',Arial,sans-serif}
+.he-privacy-button:focus-visible,.he-cookie-banner a:focus-visible{outline:3px solid #c3a16c;outline-offset:3px}
+.he-cookie-banner[hidden]{display:none!important}
+.he-cookie-banner{position:fixed;z-index:10000;left:18px;right:18px;bottom:18px;max-width:940px;margin:auto;background:#142c27;color:#f5f1e8;border:1px solid #c3a16c;border-radius:8px;box-shadow:0 16px 48px rgba(4,19,16,.35);padding:20px 22px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.he-cookie-banner h2{font:600 27px/1.13 'Cormorant Garamond',Georgia,serif;color:#f5f1e8;margin:0 0 8px}
+.he-cookie-banner p{font:400 13px/1.65 'DM Sans',Arial,sans-serif;color:#e5dfd3;margin:0}
+.he-cookie-banner a{text-decoration:underline;text-underline-offset:3px;color:#f0cf97}
+.he-cookie-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.he-cookie-action{font:700 12px/1.35 'DM Sans',Arial,sans-serif;min-width:118px;min-height:44px;padding:11px 16px;background:#e8d0a4;color:#142c27;border:1px solid #e8d0a4;border-radius:3px;cursor:pointer}
+.he-cookie-action.secondary{color:#f5f1e8;background:transparent;border-color:#bda77f}
+.he-cookie-action:hover{filter:brightness(1.08)}
+.he-cookie-action:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.he-cookie-footer{font:400 12px/1.5 'DM Sans',Arial,sans-serif;color:#c8bda8;margin-top:12px;padding-bottom:18px}
+@media(max-width:700px){.he-cookie-banner{left:10px;right:10px;bottom:10px;grid-template-columns:1fr;gap:15px;padding:18px}.he-cookie-actions{display:grid;grid-template-columns:1fr 1fr}.he-cookie-action{min-width:0}.he-cookie-banner h2{font-size:24px}}
+@media(prefers-reduced-motion:reduce){.he-cookie-banner{scroll-behavior:auto}}
